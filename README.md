@@ -1,9 +1,9 @@
 # Text Editor Starter Code
 
-#User Story
+# User Story
 As a developer I want to create notes or code snippets with or without an internet connection so that I can reliably retrieve them for later use.
 
-#Acceptance Criteria
+# Acceptance Criteria
 GIVEN a text editor web application
 
 -WHEN I open my application in my editor
