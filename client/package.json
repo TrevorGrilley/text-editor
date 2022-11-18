@@ -1,5 +1,5 @@
 {
-  "name": "text-client",
+  "name": "client",
   "private":"true",
   "scripts": {
     "dev": "webpack-dev-server",
