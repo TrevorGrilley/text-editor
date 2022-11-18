@@ -55,4 +55,7 @@ THEN I should have my static assets precached upon loading along with subsequent
 THEN I should have proper build scripts for a webpack application
 
 # Deployed Application
-heroku link
+When trying to deploy to Heroku error:
+Close messageItem could not be created:
+Your account has reached its concurrent builds limit.
+
