@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "text-editor",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,10 +7,10 @@
     "heroku-prebuild": "npm install --dev",
     "start:dev": "webpack-dev-server",
     "start": "webpack --watch",
-    "server": "",
+    "server": "cd server nodemon server.js --ignore client",
     "build": "webpack --mode production",
-    "install": "",
-    "client": ""
+    "install": "concurrently \"cd client && npm install\" \"cd server && npm install\"",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
